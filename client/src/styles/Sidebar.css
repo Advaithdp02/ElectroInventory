@@ -1,0 +1,32 @@
+.sidebar {
+  width: 220px;
+  background-color: #1f2937;
+  color: #fff;
+  padding: 1rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #334155;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #475569;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+}
